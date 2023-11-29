@@ -44,3 +44,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.image-container {
+    width: 25%;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
