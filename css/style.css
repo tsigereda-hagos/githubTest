@@ -1,15 +1,14 @@
 body{
+    font-family: Arial, sans-serif;
     background-color: lightgrey;
     font-size: 16px;
     
 }
 h1, h2{
     color: purple;
-    font-style: Georgia;
 }
 p{
     font-size: 18px;
-    font-style: Verdana;
     font-weight: lighter;
 }
 #first::first-letter{
@@ -26,7 +25,6 @@ hr{
 
 .lists{
     font-size: 18px;
-    font-style: Verdana;
     font-weight: lighter;
 }
 
