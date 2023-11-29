@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(216, 186, 147);
+    background-color: lightgrey;
     font-size: 16px;
-    border: 1px solid black;
+    
 }
 h1, h2{
     color: purple;
@@ -12,23 +12,33 @@ p{
     font-style: Verdana;
     font-weight: lighter;
 }
+#first::first-letter{
+    font-size: 32px;
+}
 #main{
     color: cadetblue;
     font-style: italic;
 }
-#main2 {
-    color: cadetblue;
-    font-style: italic;
-}
+
 hr{
     color: black;
 }
-ul>li{
+
+.lists{
     font-size: 18px;
     font-style: Verdana;
     font-weight: lighter;
 }
-li{
-    font-size: 18px;
-    font-style: Verdana;
+
+ol {
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
