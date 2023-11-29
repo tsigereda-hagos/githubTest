@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+      }
+      header {
+        background-color: dodgerblue;
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+      nav,
+      footer {
+        width: 100%;
+        background-color: whitesmoke;
+        padding: 15px 10px;
+      }
+      footer {
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+      }
+      /* nav{
+            display: flex;
+            flex-direction: row; 
+             
+        } */
+      nav a {
+        text-decoration: none;
+        padding: 15px 10px;
+        margin: 0;
+      }
+      nav a:hover {
+        background-color: blue;
+        color: white;
+      }
+      nav div {
+        display: inline;
+      }
+      .container {
+        display: flex;
+      }
+      .container > div {
+        padding: 10px;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>MySite</h1>
+    </header>
+    <nav>
+      <div><a href="#">Home</a></div>
+      <div><a href="#">About</a></div>
+    </nav>
+    <main>
+      <div class="container">
+        <div>
+          <h2>Position</h2>
+          <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+            laborum.
+          </section>
+        </div>
+        <div>
+          <h2>Display</h2>
+          <section>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatem, tenetur!
+          </section>
+        </div>
+        <div>
+          <h2>Boxmodel</h2>
+          <section>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            ipsam tempore, asperiores soluta nisi, non aliquam quia magnam
+            laborum eligendi similique. Officia maiores quas placeat nulla
+            numquam perspiciatis iure aspernatur, mollitia accusamus autem in.
+            Cumque voluptas quam, tempore natus nobis, odio quisquam blanditiis,
+            laboriosam assumenda sint beatae nihil saepe illo!
+          </section>
+          Loin<input type="text" />
+
+          <input type="checkbox" />
+          <input type="button" value="submmit" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
