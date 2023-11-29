@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(216, 186, 147);
+    font-size: 16px;
+    border: 1px solid black;
+}
+h1, h2{
+    color: purple;
+    font-style: Georgia;
+}
+p{
+    font-size: 18px;
+    font-style: Verdana;
+    font-weight: lighter;
+}
+#main{
+    color: cadetblue;
+    font-style: italic;
+}
+#main2 {
+    color: cadetblue;
+    font-style: italic;
+}
+hr{
+    color: black;
+}
+ul>li{
+    font-size: 18px;
+    font-style: Verdana;
+    font-weight: lighter;
+}
+li{
+    font-size: 18px;
+    font-style: Verdana;
+}
