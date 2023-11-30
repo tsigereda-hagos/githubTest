@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="./examp.html">
+        <label for="name">Name</label>
+        <input type="text" name="name" required pattern="[a-z ]+">
+
+        <label for="entryMonth">Entry Month</label>
+        <input type="text" name="entryMonth" required pattern="1[0-2]|0?[0-9]">
+
+        <label for="phoneNo">PhoneNo</label>
+        <!--\d==[0-9]-->
+        <input type="text" name="phoneNo" required pattern="\d{3}-\d{3}-\d{4}">
+
+        <input type="submit" value="Submit"> 
+
+
+    </form>
+</body>
+</html>
