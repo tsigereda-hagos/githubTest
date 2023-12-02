@@ -6,7 +6,8 @@ input{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px ;
 }
-.submitBut{
+button{
+    /* .submitBut */
     width: 25%;
     background-color: rgb(73, 73, 182);
     color: white;
