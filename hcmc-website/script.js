@@ -86,6 +86,11 @@ function handleCheckboxChange() {
         var hideRow = (outPatientCheckbox.checked && isOutpatientValue === "No") ||
                       (elderlyCheck.checked && birthYear > 1958);
 
-        rows[i].style.display = hideRow ? "none" : "";
+        if (hideRow) {
+            rows[i].style.display = "none";
+        } else {
+            rows[i].style.display = "";
+        }
     }
 }
+
