@@ -6,11 +6,11 @@ const server = http.createServer((req, res) => {
   if (req.url === '/image') {
     // Serve an image
     res.setHeader('Content-Type', 'image/jpeg'); // Set the appropriate content type
-    fs.createReadStream('sunset.jpg').pipe(res); // Replace with the actual image path
+    fs.createReadStream('./sunset.jpg').pipe(res); // Replace with the actual image path
   } else if (req.url === '/pdf') {
     // Serve a PDF file
     res.setHeader('Content-Type', 'application/pdf'); // Set the content type for PDF
-    fs.createReadStream('LAB-11.pdf').pipe(res); // Replace with the actual PDF path
+    fs.createReadStream('./LAB-11.pdf').pipe(res); // Replace with the actual PDF path
   } else if (req.url === '/home') {
     // Send a text response
     res.setHeader('Content-Type', 'text/plain');
